@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>QRlink</title>
+  <script src="qrcode.js"></script>
+  <script src="qrcode.tosjis.js"></script>
+  <link href="QRstyle.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="controls" style="max-width: 320px;">
+
+      <div class="controls" style="flex: 1;">
+        <textarea id="input-text" placeholder="Custom text here"></textarea>
+      </div>
+
+      <div class="qrcode-container">
+        <p id="error" class="error"></p>
+        <canvas id="canvas" class="qrcode-image"></canvas>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+  <script src="popup.js"></script>
+
+</body>
+
+</html>

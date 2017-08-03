@@ -1,0 +1,48 @@
+ .container {
+   display: flex;
+ }
+
+ .controls {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   padding: 0 5px 0 5px;
+   background-color: ghostwhite;
+ }
+
+ .controls>label {
+   margin-bottom: 5px;
+   margin-top: 10px;
+ }
+
+ .controls>textarea {
+   flex: 1;
+   margin-bottom: 10px;
+   border-radius: 7px;
+ }
+
+ .controls>input {
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   flex: 1;
+ }
+
+ .qrcode-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 300px;
+   min-width: 300px;
+   padding: 10px;
+   background-color: ghostwhite;
+ }
+
+ .qrcode-image {
+   box-shadow: 2px 2px 12px lightgray;
+ }
+
+ .error {
+   color: red;
+   max-width: 280px;
+ }
